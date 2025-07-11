@@ -20,7 +20,23 @@ class HealthKPIExtractor:
             "Domestic general government health expenditure (GGHE-D) as percentage of GDP": "GHED_GGHE-DCHE_SHA2011",
             "Prevalence of overweight and obesity": "EQ_OVERWEIGHTADULT",
             "Raised blood pressure (SBP>=140 OR DBP>=90) (age-standardized estimate)": "BP_04",
-            "Age-standardized DALYs, diabetes mellitus, per 100,000": "SA_0000001421"
+            "Age-standardized DALYs, diabetes mellitus, per 100,000": "SA_0000001421",
+            #https://ghoapi.azureedge.net/api/Indicator
+            "Estimate of current tobacco use prevalence (%)": "M_Est_tob_curr",
+            #"Fruit & vegetable intake (less than 5 servings)": "NCD_FRTVG",
+            "Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol), by beverage type": "SA_0000001400",
+            "Estimated number of MDR/RR-TB incident cases": "TB_e_inc_rr_num1",
+            "Estimated number of people (all ages) living with HIV": "HIV_0000000001",
+            "Hepatitis B surface antigen (HBsAg) prevalence (%)": "SDGHEPHBSAGPRV",
+            "Malaria incidence (per 1 000 population at risk)": "SDGMALARIA",
+            "Physicians density (per 1000 population)": "HRH_33",
+            "Nursing and midwifery personnel density (per 1000 population)": "HRH_24",
+            "Pharmacists  (per 10,000)": "HWF_0014",
+            #"Health workforce density (SDG 3.c.1)": "SDG_HWF_DENSITY",
+            "Hospital beds per 1,000 people": "WHS6_102",
+            #"IHR core capacity score": "IHR_CAPACITY",
+            #"Number of surveillance and response systems in place": "SURVEILLANCE_SYSTEMS",
+            "Response": "IHR_04"
         }
         
         self.world_bank_kpis = {
